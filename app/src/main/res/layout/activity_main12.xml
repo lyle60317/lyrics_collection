@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.android.set3.MainActivity3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10.\n 少年他的奇幻漂流\n\n
+
+午夜前醒來  迷惘如海  繁星忘了燦爛\n
+我們是小孩  都曾是小孩  誕生在這艘船\n\n
+
+人們口中方舟  像一葉小船   \n
+耳語溢出甲板  風雨搖晃旗竿\n\n
+
+人們切開山巒  剪下了雲彩\n
+削成了萬支槳  縫製風帆   \n
+尋找  吶喊  未知的未來\n\n
+
+｜我們會航向怎樣的未來？\n
+｜無數命運流轉  打造了  無數的\n
+｜相異的羅盤\n\n
+
+｜當巨浪排山倒海的襲來\n
+｜我們的手鬆開  心也潰散 \n
+｜每個人  每顆心  風暴  流竄\n\n
+
+諸神已離開  鬼在狂歡  而人們在糾纏\n
+誰生錯血脈  誰長錯色彩  誰夢錯了期待？\n\n
+
+漂流無邊汪洋  不叫做孤單\n
+夜色的最黑暗  那不是最黑暗\n\n
+
+而是人們無窮   無盡的爭端\n
+將你我推向了   最遠兩端\n
+異端  極端  遺落的遺憾\n\n
+
+｜我們會航向怎樣的未來？\n
+｜無數命運流轉  打造了  無數的\n
+｜相異的羅盤\n\n
+
+｜如果世界只剩你我存在？\n
+｜為何人們依然  爭論著  那未來\n
+｜而踐踏著現在\n\n
+
+｜我們該珍惜如何的現在？\n
+｜無數交織自傳  相遇在  汪洋中\n
+｜當你抬頭看\n\n
+
+｜何時那萬種漸層的斑斕\n
+｜已默默綻放在  黑夜終端\n
+｜那雲端  那光芒  像是  皇冠\n\n
+
+朝霞中呢喃  釋然如海  你向我靠過來\n
+誰說要龐大  才能夠偉大  我們如此存在\n
+歷經摧殘  就要璀璨    \n
+如果愛\n
+不只是奇幻\n\n
+
+曲：石頭\n
+詞：阿信\n\n
+
+
+"
+            android:textSize="16dp"/>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.android.justjava.MainActivity"
+            android:weightSum="1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:onClick="back"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next page>"
+                android:textSize="20dp"
+                android:layout_marginRight="10dp"
+                android:gravity="bottom"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:onClick="switchpage"
+                android:layout_marginLeft="160dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

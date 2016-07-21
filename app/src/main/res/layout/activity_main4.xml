@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.android.set3.MainActivity3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.\n 成名在望\n\n
+
+找一個和弦開始唱  那故事遺忘的時光\n
+起點是那平凡的成長  或初學吉他時  少年們  的模樣\n\n
+
+那一年的舞台  沒掌聲  沒聚光    只有盆地邊緣  不認輸  的倔強\n
+排練室的日夜  在爭論  在激盪    以音量去吞噬  無退路  的徬徨\n\n
+
+｜那黑的終點可有光  那夜的盡頭可會亮\n
+｜那成名在望  會有希望  或者是  無知的狂妄\n
+｜那又會怎麼樣  「那又會怎麼樣？」\n\n
+
+混跡過酒場的駐唱  才讀懂人性的尋常\n
+背負過音樂節的重量  才體會每場仗  都仰賴  槍與糧\n\n
+
+夢是把熱血和  汗與淚  熬成湯    澆灌在乾涸的  貧瘠的  現實上\n
+當日常的重量  讓我們  不反抗    倒地後才發現  荒地上  渺茫  希望  綻放\n\n
+
+穿過了\n
+搖滾或糖霜  昧俗或理想  批判或傳唱  道路上\n
+只能看遠方  最遠的地方  應許的他方  不停衝撞\n
+
+看過多少臉龐  飛過多少異鄉\n
+少年早已蒼茫  回頭望  我在何方\n
+
+一站又一站的流浪  那旅館和空港    一遍又一遍的採訪  和攻防\n
+一雙又一雙的目光  像監獄和高牆    牆裡的風光是不是  如當初想像？\n\n
+
+｜那黑的終點可有光  那夜的盡頭可會亮\n
+｜那成名在望  是否風光  或者是  瘋狂的火光\n
+｜那又該怎麼樣  「那又能怎麼樣？」\n\n
+
+While we were so young  我夢到當時  我們翻過牆\n
+曼陀羅花  沿途綻放  我們光腳越過人間荒唐\n\n
+
+We're stupid but strong  放學的屋頂  像萬人廣場\n
+從不多想  只是信仰  少年回頭望  笑我「還不快跟上？」\n\n
+
+那路的起點誰能忘  那路的盡頭誰在唱\n
+誰成名在望  誰曾失望  卻更多  的誰在盼望\n\n
+
+｜那黑的終點可有光  那夜的盡頭天將亮\n
+｜那成名在望  無關真相  如果你  心始終信仰\n
+｜誰又能怎樣？  誰又能怎樣？\n\n
+
+「你就能飛翔」\n
+
+
+曲/詞：阿信\n\n
+
+
+＊[曼陀羅花] \n
+茄科類曼陀羅屬植物，有麻醉與迷幻效果，
+據稱在前往天堂的路上，如果停步沉迷於此花香，就會喪失前往天堂的能力與意志。\n\n
+
+
+"
+            android:textSize="16dp"/>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.android.justjava.MainActivity"
+            android:weightSum="1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:onClick="back"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next page>"
+                android:textSize="20dp"
+                android:layout_marginRight="10dp"
+                android:gravity="bottom"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:onClick="switchpage"
+                android:layout_marginLeft="160dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

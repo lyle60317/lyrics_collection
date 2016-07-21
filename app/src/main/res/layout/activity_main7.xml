@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.android.set3.MainActivity3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.\n 人生有限公司\n\n
+
+你用哭聲打卡  產房裡的娃娃  眾人祝福  你還記得嗎？\n
+當時一絲不掛  如今一分不差  成天會議  成堆資料夾\n\n
+
+第一個部門  主管叫做爸媽  你只要乖乖聽話\n
+第二個部門  專門改造傻瓜  會唸書  會考試  的那種傻瓜\n\n
+
+「你曾掙扎過嗎  你曾反抗過嗎？」  \n
+｜如何使用生命  就叫「使命」是嗎？\n
+｜人生有限選擇  誰在規劃？\n\n
+
+｜追逐富貴榮華  目標飛黃騰達  \n
+｜你準備好了嗎  現在必須出發\n
+｜人生有限公司  沒有一天能請假\n\n
+
+人在哪裡跌倒  就在哪趴一下  面對挫折也都專業化\n
+讓生涯最佳化  而夢想最小化  生存機率追求最大化\n\n
+
+第三個部門  負責財務計畫  要你和現實打架\n
+第四個部門  任務更加複雜  去尋覓  去戀愛  去找她或他\n\n
+
+「你曾深愛過嗎  你曾放縱過嗎？」  \n
+｜愛成一句傻話  活成一句廢話\n
+｜人生有限日子  揮霍一下\n\n
+
+｜公司漸漸變化  組織慢慢擴大 \n
+｜有時無法招架  有點騎虎難下\n
+｜人生有限公司  還加班還沒回家\n\n
+
+「你曾停下過嗎  你曾懷疑過嗎？」  \n
+｜就算你有想法  你也沒有辦法\n
+｜人生無限問題  沒有解答\n\n
+
+｜追逐富貴榮華  目標飛黃騰達  \n
+｜其實平安到達  就是一種偉大\n
+｜人生無限可能  誰能出價？\n\n
+
+｜人生像打電話  總要有人先掛  來時嗚嗚哇哇  走要嘻嘻哈哈\n
+｜人生有限的話  你想要怎樣喧嘩？\n
+｜人生有限公司  沒有一天能請假\n\n
+
+曲：怪獸\n
+詞：阿信\n\n
+
+"
+            android:textSize="16dp"/>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.android.justjava.MainActivity"
+            android:weightSum="1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:onClick="back"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next page>"
+                android:textSize="20dp"
+                android:layout_marginRight="10dp"
+                android:gravity="bottom"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:onClick="switchpage"
+                android:layout_marginLeft="160dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.android.set3.MainActivity3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7.\n 頑固\n\n
+
+我身在  當時你  幻想的  未來裡\n
+這個狂熱和衝動  早已冷卻的如今\n
+你頑固  的神情  消失在  鏡子裡\n
+只留下  時光消逝的痕跡\n\n
+
+每顆心  的相信  每個人  的際遇\n
+每個故事的自己  反覆地問著自己\n
+這些年  讓步的  你是否  會嘆息\n
+有什麼  是你永遠不放棄？\n\n
+
+｜一次一次你  吞下了淚滴    一次一次  拼回破碎自己\n
+｜一天一天你  是否還相信    活在你心深處  那頑固自己\n\n
+
+你追逐  你呼吸  你囂張  的任性\n
+鼻青臉腫的哭過  若無其事的忘記\n
+如果你  能預知  這條路  的陷阱\n
+我想你  依然錯得很過癮\n\n
+
+走過的  叫足跡  走不到  叫憧憬\n
+學會收拾起叛逆  學會隱藏了表情\n
+卸下了  這面具  我想說  謝謝你 \n
+謝謝你  一路陪我到這裡\n\n
+
+｜一次一次你  吞下了淚滴    一次一次  拼回破碎自己\n
+｜一天一天你  是否還相信    活在你心深處  那頑固的自己\n\n
+
+
+｜一次一次你  吞下了淚滴    一次一次  拼回破碎自己\n
+｜一天一天你  是否還相信    活在你心深處  那頑固的\n\n
+
+｜你當時相信  的那些事情    會在如今  變成美麗風景\n
+｜每當我遲疑  從不曾忘記    活在我心深處  那頑固的自己\n\n
+
+曲/詞：阿信\n\n
+
+"
+            android:textSize="16dp"/>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.android.justjava.MainActivity"
+            android:weightSum="1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:onClick="back"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next page>"
+                android:textSize="20dp"
+                android:layout_marginRight="10dp"
+                android:gravity="bottom"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:onClick="switchpage"
+                android:layout_marginLeft="160dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

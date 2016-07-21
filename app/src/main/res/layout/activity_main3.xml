@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.set3.MainActivity3">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.\n 如果我們不曾相遇\n
+
+如果我們不曾相遇  我會是在哪裡？\n
+如果我們從不曾相識  不存在這首歌曲\n\n
+
+每秒都活著  每秒都死去  每秒都問著自己\n
+誰不曾找尋  誰不曾懷疑  茫茫人生奔向何地？\n\n
+
+｜那一天  那一刻  那個場景  你出現在我生命\n
+｜從此後  從人生  重新定義  從我故事裡甦醒\n\n
+
+如果我們不曾相遇  你又會在哪裡？\n
+如果我們從不曾相識  人間又如何運行？\n\n
+
+曬傷的脫皮  意外的雪景  與你相依的四季\n
+蒼狗又白雲  身旁有了你  匆匆輪迴又有何懼？\n\n
+
+｜那一天  那一刻  那個場景  你出現在我生命\n
+｜每一分  每一秒  每個表情  故事都充滿驚奇\n\n
+
+「偶然與巧合  舞動了蝶翼  誰的心頭風起」\n
+「前仆而後繼  萬千人追尋  荒漠唯一菩提」\n
+「是擦身相遇  或擦肩而去  命運猶如險棋」\n
+「無數時間線  無盡可能性  終於交織向你」\n\n
+
+｜那一天  那一刻  那個場景  你出現在我生命\n
+｜未知的  未來裡  未定機率  然而此刻擁有你\n\n
+
+｜某一天  某一刻  某次呼吸  我們終將再分離\n
+｜而我的  自傳裡  曾經有你  沒有遺憾的詩句\n\n
+
+詩句裡\n
+充滿感激\n\n
+
+如果我們不曾相遇  我會是在哪裡？\n
+如果我們從不曾相識  不存在這首歌曲\n\n
+
+曲/詞：阿信\n\n
+"
+        android:textSize="16dp"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.android.justjava.MainActivity"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:onClick="back"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next page>"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:gravity="bottom"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:onClick="switchpage"
+            android:layout_marginLeft="160dp" />
+    </LinearLayout>
+
+</RelativeLayout>
+
+</ScrollView>

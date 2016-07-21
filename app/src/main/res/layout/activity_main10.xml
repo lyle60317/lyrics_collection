@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.android.set3.MainActivity3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8.\n 派對動物\n\n
+
+｜Let’s go party party all night, oh oh oh oh\n
+｜Hey lonely lonely goodbye, oh oh oh oh\n
+｜我們都有覺悟  要瘋狂到日出\n
+｜我們  天生  就是\n\n
+
+我很嚴肅  這不能耽誤  這不能讓步\n
+那現實中  已經有太多讓步\n
+Hey 派對動物  別找退路\n\n
+
+不會跳舞  就不要跳舞  搖擺也幸福\n
+就閉著眼  以空氣吉他飆速\n
+Hey 派對動物  不要認輸\n
+你不孤獨  朋友滿屋  瘋狂胡鬧  瘋狂慶祝\n\n
+
+｜Let’s go party party all night, oh oh oh oh\n
+｜And many many good times, oh oh oh oh\n
+｜不願被當寵物  寧願變成怪物  噢噢 oh oh oh oh\n\n
+
+入不敷出  水電和房租  成績和任務\n
+這泡沫般  人生是那麼辛苦\n
+Hey 派對動物  是否麻木\n\n
+
+你忘了笑  還忘了能哭  本性被馴服\n
+花兩億年  進化卻沒有進步\n
+Hey 派對動物  無論你是\n
+貓咪老虎  麻雀蝙蝠  都要驕傲  都要大步\n\n
+
+｜Let’s go party party all night, oh oh oh oh\n
+｜And many many good times, oh oh oh oh\n
+｜不願被當寵物  寧願變成怪物  噢噢 oh oh oh oh\n
+｜Let’s go party party all night, oh oh oh oh\n
+｜Hey lonely lonely goodbye, oh oh oh oh\n
+｜我們都有覺悟  要瘋狂到日出\n
+｜我們  天生  就是  派對動物\n\n
+
+｜Let’s go party party all night, oh oh oh oh\n
+｜And many many good times, oh oh oh oh\n
+「人生難得糊塗  偶爾脫軌演出」  噢噢 oh oh oh oh\n
+｜Let’s go party party all night, oh oh oh oh\n
+｜Hey lonely lonely goodbye, oh oh oh oh\n
+「我們都有覺悟  要瘋狂到日出」\n
+｜我們  天生  就是  派對動物\n\n
+
+曲/詞：阿信\n\n
+
+"
+            android:textSize="16dp"/>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.android.justjava.MainActivity"
+            android:weightSum="1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:onClick="back"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next page>"
+                android:textSize="20dp"
+                android:layout_marginRight="10dp"
+                android:gravity="bottom"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:onClick="switchpage"
+                android:layout_marginLeft="160dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

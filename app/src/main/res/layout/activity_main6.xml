@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.android.set3.MainActivity3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.\n 兄弟\n\n
+
+酒精或節奏  我們搖搖晃晃    那又會怎樣  跌倒你在身旁\n
+在身旁打每一場  泥濘爛仗    你和我  唔噢噢噢  就是這樣\n\n
+
+留級和失戀  誰也都曾重傷    傷癒後變成  你我今日徽章 \n
+你總強迫我堅強  像控制狂    想起來  唔噢噢噢  有點誇張\n\n
+
+兄弟別來無恙  能走到這裡  也算得獎\n
+兄弟別來無恙  我很難想像  沒有你  會怎樣\n\n
+
+｜當其他人都 \n
+｜一次一次  一次一次  對我失望\n
+｜一個一個  一個一個  慢慢走光\n
+｜我的兄弟啊  抬頭是你  在身旁\n\n
+
+再乾一杯敬那年  狂妄理想    曾以為世界  想怎樣就怎樣\n
+而至少如今我們  平安健康    人生嘛  唔噢噢噢  不要多想\n\n
+
+只有你知道我都  假裝正常    只有我欣賞你的  惡行惡狀\n
+彼此都是彼此的  孽緣業障    完美的  唔噢噢噢  狐群狗黨\n\n
+
+兄弟就是這樣  你每件糗事  被我珍藏\n
+兄弟就是這樣  我們的荒唐  排行榜  多難忘 \n\n
+
+｜當其他人都\n
+｜一次一次  一次一次  對我失望\n
+｜一個一個  一個一個  慢慢走光\n
+｜我的兄弟啊  抬頭卻看到你在  我身旁\n\n
+
+｜能不能永遠\n
+｜一句一句  一句一句  都沒營養\n
+｜一直一直  一直一直  聊到天亮\n
+｜我的兄弟啊  今天換我結帳  不要  跟我搶\n
+
+如今人生各有戰場  你的難題  我的煩惱  已不一樣\n
+是否就像當年的幻想  我們的模樣？   \n\n
+
+｜青春就這樣  \n
+｜一天一天  一天一天  慢慢用光\n
+｜一點一點  一點一點  現實埋葬\n
+｜我的兄弟啊  我們都變成歲月  的形狀\n\n
+
+｜不如就這樣\n
+｜一年一年  一年一年  地老天荒\n
+｜一定一定  一定一定  永遠不忘\n
+｜我的兄弟啊  人生最狂時光  剛好你都在場\n
+｜我的兄弟啊  人生最好時光  是和你  兄弟一場\n\n
+
+曲/詞：阿信\n\n
+"
+            android:textSize="16dp"/>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.android.justjava.MainActivity"
+            android:weightSum="1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:onClick="back"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next page>"
+                android:textSize="20dp"
+                android:layout_marginRight="10dp"
+                android:gravity="bottom"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:onClick="switchpage"
+                android:layout_marginLeft="160dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
