@@ -16,49 +16,54 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="3.\n 好好 (想把你寫成一首歌)\n\n
+            android:text="12.\n 任意門\n
 
-想把你寫成一首歌  想養一隻貓\n
-想要回到每個場景  撥慢每隻錶\n
-我們在小孩和大人的轉角  蓋一座城堡\n
-我們好好  好到瘋掉  像找回失散多年雙胞\n\n
+行天宮後  二樓前座  那個小房間    日夜排練  我們聽著唱片\n
+唱片來自  那唱片行  叫「搖滾萬歲」    和駐唱小店  都在士林邊緣\n\n
 
-生命再長不過  煙火  落下了眼角\n
-世界再大不過  你我  凝視的微笑\n
-在所有流逝風景與人群中  你對我最好\n
-一切好好  是否太好  沒有人知道\n\n
+我們都想  離開這邊  追尋另一邊    苗栗孩子  搬到台北求學\n
+水手之子  重考擠進  信義路校園    和高雄學弟  當時看不順眼\n\n
 
-｜你和我背著空空的書包\n
-｜逃出名為日常的監牢\n
-｜忘了要長大  \n
-｜忘了要變老\n
-｜忘了時間有腳\n\n
+｜我們曾走過  無數地方  和無盡歲月\n
+｜搭著肩環遊  無法遺忘  的光輝世界\n
+｜那年我們都  衝出南陽街  任意門通向了音樂\n
+｜任意門外我們都任意的飛  是自由的滋味\n\n
 
-最安靜的時刻  回憶  總是最喧囂\n
-最喧囂的狂歡  寂寞  包圍著孤島\n
-還以為馴服想念能陪伴我  像一隻家貓\n
-它就窩在  沙發一角  卻不肯睡著\n\n
+七號公園  初次登場  是那個三月    自強隧道  漫長的像永遠\n
+椰林大道  誰放棄了  律師的家業    頭也不回地  越來越唱越遠\n\n
 
-｜你和我曾有滿滿的羽毛\n
-｜跳著名為青春的舞蹈\n
-｜不知道未來  \n
-｜不知道煩惱\n
-｜不知那些日子  會是那麼少\n\n
+外灘風光  躍出課本  是那麼新鮮    從回民街  再飛到尖沙咀\n
+男兒立志  成名在望  不論多遙遠    一離開台北  卻又想念台北\n\n
 
-時間的電影  結局才知道\n
-原來大人已沒有童謠\n
-最後的叮嚀  \n
-最後的擁抱\n
-我們紅著眼笑\n\n
+｜我們曾走過  無數地方  和無盡歲月\n
+｜搭著肩環遊  無法遺忘  的光輝世界\n
+｜無名高地到  鳥巢的十年  一路鋪滿汗水淚水\n
+｜任意門外我們用盡全力飛  管他有多遙遠\n\n
 
-「我們都要把自己照顧好」\n
-｜好到遺憾無法打擾\n
-｜好好的生活  \n
-｜好好的變老\n
-｜好好假裝我  已經把你忘掉\n\n
 
-曲：冠佑＋阿信\n
+｜我們曾走過  無數地方  和無盡歲月\n
+｜搭著肩環遊  無法遺忘  的光輝世界\n
+｜那個唱片行  何時已不見？  是誰說過「搖滾萬歲」？\n
+｜任意門裡我們偶爾也疲倦\n\n
+
+｜平凡的我們  也將回到  平凡的世界\n
+｜生活中充滿  孩子哭聲  柴米和油鹽\n
+｜曾和你走過  麥迪遜花園  任意門外繞一大圈\n
+｜你問我全世界是哪裡最美？\n
+｜答案是「你身邊」  只要是你身邊\n\n
+
+行天宮後  二樓前座  那個小房間    獸媽準備  宵夜是大雞腿\n
+每個夢都  像任意門  往不同世界    而你的故事  \n
+「現在正是起點」\n\n
+
+曲：怪獸\n
 詞：阿信\n\n
+
+＊[信義路] 師大附中的座落地點，鄰近大安森林公園。\n
+＊[南陽街] 是台北著名的補習街，所有考生深刻的愛恨交織燃燒青春的一條街。\n
+＊[七號公園] 現在名為大安森林公園，1997年五月天在數十個觀眾面前首次演出。\n
+＊[椰林大道] 第一學府台大的著名標誌地點。\n
+＊[無名高地] 北京著名的Live House，五月天初來乍到的第一站。\n\n
 
 "
             android:textSize="16dp"/>
@@ -68,9 +73,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:context="com.example.android.justjava.MainActivity"
-            android:weightSum="1"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="20dp">
+            android:layout_alignParentBottom="true">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -82,7 +85,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Next page>"
+                android:text="Menu"
+                android:textSize="20dp"
+                android:layout_marginLeft="60dp"
+                android:onClick="menu"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next>"
                 android:textSize="20dp"
                 android:layout_marginRight="10dp"
                 android:gravity="bottom"
@@ -90,7 +101,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_alignParentStart="true"
                 android:onClick="switchpage"
-                android:layout_marginLeft="160dp" />
+                android:layout_marginLeft="60dp" />
         </LinearLayout>
     </RelativeLayout>
 </ScrollView>

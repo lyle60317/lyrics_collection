@@ -21,7 +21,13 @@ public class MainActivity14 extends AppCompatActivity {
     public void back(View view)
     {
         Intent intent = new Intent();
-        intent.setClass(MainActivity14.this, MainActivity.class);
+        intent.setClass(MainActivity14.this, MainActivity13.class);
+        startActivity(intent);
+    }
+    public void menu(View view)
+    {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity14.this, Main2Activity.class);
         startActivity(intent);
     }
 }

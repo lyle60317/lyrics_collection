@@ -16,48 +16,50 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="3.\n 好好 (想把你寫成一首歌)\n\n
+            android:text="13.\n 轉眼\n
 
-想把你寫成一首歌  想養一隻貓\n
-想要回到每個場景  撥慢每隻錶\n
-我們在小孩和大人的轉角  蓋一座城堡\n
-我們好好  好到瘋掉  像找回失散多年雙胞\n\n
+轉眼走到了  自傳最終章  已瀏覽所有  命運的風光\n
+混濁的瞳孔  風乾的皮囊  也曾那般  花漾\n\n
 
-生命再長不過  煙火  落下了眼角\n
-世界再大不過  你我  凝視的微笑\n
-在所有流逝風景與人群中  你對我最好\n
-一切好好  是否太好  沒有人知道\n\n
+最愛的相片  讓你挑一張  千萬個片刻  誰在你身旁\n
+那一年的我  曾和你一樣  飛揚\n\n
 
-｜你和我背著空空的書包\n
-｜逃出名為日常的監牢\n
-｜忘了要長大  \n
-｜忘了要變老\n
-｜忘了時間有腳\n\n
+惶惶不安  念念不忘  還是得放開雙掌\n
+掌心曾握著  誰的體溫  漸涼\n\n
 
-最安靜的時刻  回憶  總是最喧囂\n
-最喧囂的狂歡  寂寞  包圍著孤島\n
-還以為馴服想念能陪伴我  像一隻家貓\n
-它就窩在  沙發一角  卻不肯睡著\n\n
+｜有沒有人  在某個地方  等我重回  當初的模樣\n
+｜雙頰曾光滑  夜色曾沁涼  世界曾瘋狂  愛情曾綻放\n\n
 
-｜你和我曾有滿滿的羽毛\n
-｜跳著名為青春的舞蹈\n
-｜不知道未來  \n
-｜不知道煩惱\n
-｜不知那些日子  會是那麼少\n\n
+｜有沒有人  依偎我身旁  聽我傾訴  餘生的漫長\n
+｜在你的眼中  我似乎健忘  因為我腦海  已有最難忘  最難遺忘\n\n
 
-時間的電影  結局才知道\n
-原來大人已沒有童謠\n
-最後的叮嚀  \n
-最後的擁抱\n
-我們紅著眼笑\n\n
+在我的時代  還有唱片行  如同博物館  裝滿了希望\n
+披頭與槍花  愛情和憂傷  永遠驕傲  高唱\n\n
 
-「我們都要把自己照顧好」\n
-｜好到遺憾無法打擾\n
-｜好好的生活  \n
-｜好好的變老\n
-｜好好假裝我  已經把你忘掉\n\n
+成就如沙堡  生命如海浪  浪花會掏盡  所有的幻象\n
+存款與樓房  掙扎與渴望  散場\n\n
 
-曲：冠佑＋阿信\n
+回憶如窗  冷淚盈眶  風景模糊如天堂\n
+孤單的大床  誰貼近我  臉龐 \n\n
+
+｜有沒有人  也笑憶過往  跌跌撞撞  當時的蠢樣\n
+｜最平凡日子  最卑微夢想  何時才發現  最值得珍藏\n\n
+
+｜有沒有人  告訴我真相  時間就是  最巨大的謊\n
+｜以為的日常  原來是無常  生命的具象  原來  只是  幻象\n\n
+
+｜這是我自傳  最終章  寫這首長詩  用一生時光 \n
+｜軀殼會解脫  藥罐和空房  我從嬰兒床  再走回光芒\n\n
+
+｜有沒有人  知道某種秘方  不必永生  只要回憶不忘\n
+｜我不怕死亡  只害怕遺忘  回憶是你我  生存的地方\n\n
+
+｜有沒有人  知道那個地方  我能回到  我的最愛身旁\n
+｜兒孫們都忙  就讓他們忙  離開的時候  就當我飛翔 \n\n
+
+自由飛翔\n\n
+
+曲：石頭\n
 詞：阿信\n\n
 
 "
@@ -68,9 +70,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:context="com.example.android.justjava.MainActivity"
-            android:weightSum="1"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="20dp">
+            android:layout_alignParentBottom="true">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -82,7 +82,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Next page>"
+                android:text="Menu"
+                android:textSize="20dp"
+                android:layout_marginLeft="60dp"
+                android:onClick="menu"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next>"
                 android:textSize="20dp"
                 android:layout_marginRight="10dp"
                 android:gravity="bottom"
@@ -90,7 +98,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_alignParentStart="true"
                 android:onClick="switchpage"
-                android:layout_marginLeft="160dp" />
+                android:layout_marginLeft="60dp" />
         </LinearLayout>
     </RelativeLayout>
 </ScrollView>

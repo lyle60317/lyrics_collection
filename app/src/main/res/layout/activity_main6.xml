@@ -74,9 +74,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:context="com.example.android.justjava.MainActivity"
-            android:weightSum="1"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="20dp">
+            android:layout_alignParentBottom="true">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -88,7 +86,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Next page>"
+                android:text="Menu"
+                android:textSize="20dp"
+                android:layout_marginLeft="60dp"
+                android:onClick="menu"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next>"
                 android:textSize="20dp"
                 android:layout_marginRight="10dp"
                 android:gravity="bottom"
@@ -96,7 +102,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_alignParentStart="true"
                 android:onClick="switchpage"
-                android:layout_marginLeft="160dp" />
+                android:layout_marginLeft="60dp" />
         </LinearLayout>
     </RelativeLayout>
 </ScrollView>

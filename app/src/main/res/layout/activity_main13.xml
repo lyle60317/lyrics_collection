@@ -28,50 +28,50 @@
 當時無限珍藏的回憶  變成無處躲藏的雨季\n
 讓最小事情  都變成最痛  嘆息 \n\n
 
-每一段傷痛的愛情  都困住兩顆想掙脫  傷痛的心
-如果說可惜  就在下一章  更珍惜
-也許一個勇敢的決定  能換兩個重生的約定
-「我們到了站」  這一站叫終於
+每一段傷痛的愛情  都困住兩顆想掙脫  傷痛的心\n
+如果說可惜  就在下一章  更珍惜\n
+也許一個勇敢的決定  能換兩個重生的約定\n
+「我們到了站」  這一站叫終於\n\n
 
-｜終於結束的起點
-｜終於寫下句點  終於我們告別
-｜終於我們又  回到原點
-｜流乾了眼淚  日日夜夜
-｜未來的我們  也許能說聲
-「好久不見。」
+｜終於結束的起點\n
+｜終於寫下句點  終於我們告別\n
+｜終於我們又  回到原點\n
+｜流乾了眼淚  日日夜夜\n
+｜未來的我們  也許能說聲\n
+「好久不見。」\n\n
 
-愛情並不是  對與錯  簡單是非題
-相愛的兩人  不一定  能相守相依
-因為相愛所以在一起  因為深愛所以又分離
-約在下一站  車票是你我  勇氣
+愛情並不是  對與錯  簡單是非題\n
+相愛的兩人  不一定  能相守相依\n
+因為相愛所以在一起  因為深愛所以又分離\n
+約在下一站  車票是你我  勇氣\n\n
 
-每一段遺憾的曾經  當時名字都叫憧憬  我們的心
-不能忘懷的  至少釋懷吧  在風裡
-「那些無法看破的嘆息  某天會是看淡的風景」
-雖然那風景  永遠有誰缺席
+每一段遺憾的曾經  當時名字都叫憧憬  我們的心\n
+不能忘懷的  至少釋懷吧  在風裡\n
+「那些無法看破的嘆息  某天會是看淡的風景」\n
+雖然那風景  永遠有誰缺席\n\n
 
-｜終於結束的起點
-｜終於寫下句點  終於我們告別
-｜終於我們又  回到原點
-｜流乾了眼淚  日日夜夜
-｜未來的我們  也許能說聲好久不見  好久不見
+｜終於結束的起點\n
+｜終於寫下句點  終於我們告別\n
+｜終於我們又  回到原點\n
+｜流乾了眼淚  日日夜夜\n
+｜未來的我們  也許能說聲好久不見  好久不見\n\n
 
-｜終於結束的起點
-｜終於寫下句點  終於我們告別
-｜終於我們又  回到原點
-｜流乾了眼淚  日日夜夜
-｜未來的我們  也許能說聲好久不見
+｜終於結束的起點\n
+｜終於寫下句點  終於我們告別\n
+｜終於我們又  回到原點\n
+｜流乾了眼淚  日日夜夜\n
+｜未來的我們  也許能說聲好久不見\n\n
 
-｜站在這起點
-｜其實沒有走遠  其實不願告別
-｜其實我心中  依然想念
-｜擁抱著遺憾  歲歲年年
-｜卻要在今天  頭也不回的告別昨天  奔向明天
+｜站在這起點\n
+｜其實沒有走遠  其實不願告別\n
+｜其實我心中  依然想念\n
+｜擁抱著遺憾  歲歲年年\n
+｜卻要在今天  頭也不回的告別昨天  奔向明天\n\n
 
-奔向明天
-不回頭  不眷戀  的明天
+奔向明天\n
+不回頭  不眷戀  的明天\n\n
 
-曲/詞：阿信
+曲/詞：阿信\n\n
 
 
 "
@@ -82,9 +82,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:context="com.example.android.justjava.MainActivity"
-            android:weightSum="1"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="20dp">
+            android:layout_alignParentBottom="true">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -96,7 +94,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Next page>"
+                android:text="Menu"
+                android:textSize="20dp"
+                android:layout_marginLeft="60dp"
+                android:onClick="menu"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next>"
                 android:textSize="20dp"
                 android:layout_marginRight="10dp"
                 android:gravity="bottom"
@@ -104,7 +110,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_alignParentStart="true"
                 android:onClick="switchpage"
-                android:layout_marginLeft="160dp" />
+                android:layout_marginLeft="60dp" />
         </LinearLayout>
     </RelativeLayout>
 </ScrollView>
